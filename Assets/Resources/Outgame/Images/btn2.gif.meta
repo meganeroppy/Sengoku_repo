@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 04a950b49cb824d1ca4fa95c56d0883b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: btn2_0
+    21300002: btn2_1
+    21300004: btn2_2
+    21300006: btn2_3
+    21300008: btn2_4
+    21300010: btn2_5
+    21300012: btn2_6
+    21300014: btn2_7
+    21300016: btn2_8
+    21300018: btn2_9
+    21300020: btn2_10
+    21300022: btn2_11
+    21300024: btn2_12
+    21300026: btn2_13
+    21300028: btn2_14
+    21300030: btn2_15
+    21300032: btn2_16
+    21300034: btn2_17
+    21300036: btn2_18
+    21300038: btn2_19
+    21300040: btn2_20
+    21300042: btn2_21
+    21300044: btn2_22
+    21300046: btn2_23
+    21300048: btn2_24
+    21300050: btn2_25
+    21300052: btn2_26
+    21300054: btn2_27
+    21300056: btn2_28
+    21300058: btn2_29
+    21300060: btn2_30
+    21300062: btn2_31
+    21300064: btn2_32
+    21300066: btn2_33
+    21300068: btn2_34
+    21300070: btn2_35
+    21300072: btn2_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: btn2_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 206
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 206
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 206
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 206
+        width: 120
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 185
+        width: 140
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 185
+        width: 160
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 164
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 164
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 164
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 164
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 164
+        width: 120
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 142
+        width: 140
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 142
+        width: 160
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 118
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 118
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 118
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 118
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 118
+        width: 120
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 140
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 96
+        width: 160
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 72
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 72
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_25
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 72
+        width: 120
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 50
+        width: 140
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_27
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 50
+        width: 160
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 25
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 25
+        width: 60
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 25
+        width: 80
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 25
+        width: 100
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_32
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 25
+        width: 120
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 140
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_34
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3
+        width: 160
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_35
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: btn2_36
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 10
+        width: 52
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
