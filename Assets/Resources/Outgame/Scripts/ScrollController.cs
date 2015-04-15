@@ -9,8 +9,9 @@ public class ScrollController : MonoBehaviour {
 	protected bool m_awake = false;
 	protected bool m_displayingNotice = false;
 	protected bool reloadFlug = false;
-	protected float counter = 0;
-	protected float reloadInterval = 0.5f;
+
+	protected float reloadWait = 0;
+	protected const float RELOAD_INTERVAL_MIN = 1f;
 
 	protected UIGrid myUIGrid;
 	protected UIScrollView myUIScrollView;
@@ -40,9 +41,8 @@ public class ScrollController : MonoBehaviour {
 
 	// Update is called once per frame
 	protected virtual void Update () {
-
 		if(m_awake){
-			if(!CheckDisplayFlug()){
+			if(!CheckDisplayFlug()){// awake -> sleep
 				m_awake = false;
 
 				for(int i = 0 ; i < transform.childCount ; i++ ){
@@ -74,13 +74,17 @@ public class ScrollController : MonoBehaviour {
 				}
 			}
 		}else{
-			if(CheckDisplayFlug()){
+			if(CheckDisplayFlug()){ //sleep -> awake
 				m_awake = true;
 				m_displayingNotice = false;
 
 				CreateNodes();
 			}
 
+		}
+
+		if(reloadWait > 0){
+			reloadWait -= Time.deltaTime;
 		}
 	}
 
@@ -116,7 +120,10 @@ public class ScrollController : MonoBehaviour {
 	}
 
 	protected virtual void Reload(){
-		//m_awake = true;
+
+		if(reloadWait > 0){
+			return;
+		}
 
 		// memorize scroll pos 
 		if(myUIScrollView == null){
@@ -150,7 +157,9 @@ public class ScrollController : MonoBehaviour {
 
 		// apply scroll pos from before relaod
 		myUIScrollView.transform.localPosition = scrollPosBeforeReload;
+		Debug.Log("Reload() : scrollPos of " + this.gameObject.name + " = " + myUIScrollView.transform.localPosition.y.ToString());
 
+		reloadWait = RELOAD_INTERVAL_MIN;
 	}
 
 	protected void SetScrollPosY(float val){

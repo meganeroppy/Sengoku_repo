@@ -11,15 +11,14 @@ public class DeckView : ScrollController {
 	protected override void Update ()
 	{
 		base.Update ();
-		if(GameManager.boxIsUpdated){
+		if(GameManager.boxIsUpdated ){
 			Reload();
 			GameManager.boxIsUpdated = false;
 		}else if(reloadFlug){
 			Reload();
 			reloadFlug = false;
 		} 
-
-//		Debug.Log(gameObject.name.ToString() + ".ScroolPos = " + myUIScrollView.transform.localPosition.y);
+		//Debug.Log("scrollPos of " + this.gameObject.name + " = " + myUIScrollView.transform.localPosition.y.ToString());
 	}
 
 	protected override bool CheckDisplayFlug(){
