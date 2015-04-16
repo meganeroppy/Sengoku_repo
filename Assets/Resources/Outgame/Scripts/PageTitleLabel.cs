@@ -32,15 +32,15 @@ public class PageTitleLabel : MonoBehaviour {
 		case GameManager.PAGE.DECK:
 
 			if(DeckMenu.cur_subpage == DeckMenu.SUBPAGE.NONE){
-				str = "デッキ";
+				str = "部隊";
 			}else if(DeckMenu.cur_subpage == DeckMenu.SUBPAGE.EDIT){
-				str = "デッキ編成";
+				str = "編成";
 			}else if(DeckMenu.cur_subpage == DeckMenu.SUBPAGE.STRENGTHEN){
 				str = "強化合成";
 			}else if(DeckMenu.cur_subpage == DeckMenu.SUBPAGE.EVOLVE){
 				str = "進化合体";
 			}else if(DeckMenu.cur_subpage == DeckMenu.SUBPAGE.SALE){
-				str = "ユニット売却";
+				str = "売却";
 			}else{
 				str = "UNDEFINED";
 			}			
@@ -56,7 +56,7 @@ public class PageTitleLabel : MonoBehaviour {
 			str = "その他";
 			break;	
 		case GameManager.PAGE.SHOP:
-			str = "ショップ";
+			str = "萬屋";
 			break;
 		default: str = "";
 			break;

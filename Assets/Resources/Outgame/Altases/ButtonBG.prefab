@@ -41,9 +41,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 065588740b54e4d61b64628f067a50d2, type: 2}
   mSprites:
+  - name: ant1
+    x: 0
+    y: 662
+    width: 589
+    height: 172
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 4
   - name: btn_blue
-    x: 641
-    y: 853
+    x: 590
+    y: 751
     width: 160
     height: 18
     borderLeft: 0
@@ -55,8 +68,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: btn_green
-    x: 641
-    y: 834
+    x: 590
+    y: 732
     width: 160
     height: 18
     borderLeft: 0
@@ -68,8 +81,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: btn_red
-    x: 641
-    y: 815
+    x: 590
+    y: 713
     width: 160
     height: 18
     borderLeft: 0
@@ -81,8 +94,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: btn_white
-    x: 641
-    y: 796
+    x: 590
+    y: 694
     width: 160
     height: 18
     borderLeft: 0
@@ -94,8 +107,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: btn_yellow
-    x: 641
-    y: 777
+    x: 590
+    y: 675
     width: 160
     height: 18
     borderLeft: 0
@@ -108,7 +121,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: Button_bg
     x: 0
-    y: 735
+    y: 372
     width: 640
     height: 136
     borderLeft: 0
@@ -120,7 +133,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: dot
-    x: 615
+    x: 775
     y: 903
     width: 2
     height: 2
@@ -132,9 +145,35 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: ele_mini1
+    x: 590
+    y: 770
+    width: 252
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 2
+    paddingBottom: 2
+  - name: ele1
+    x: 0
+    y: 835
+    width: 774
+    height: 189
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 5
   - name: m_win_bg
     x: 0
-    y: 574
+    y: 211
     width: 480
     height: 160
     borderLeft: 0
@@ -147,7 +186,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: messageBox
     x: 0
-    y: 872
+    y: 509
     width: 614
     height: 152
     borderLeft: 0
@@ -159,7 +198,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: squares_1_1
-    x: 615
+    x: 775
     y: 906
     width: 118
     height: 118
@@ -172,7 +211,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: squares_2_1
-    x: 734
+    x: 894
     y: 906
     width: 118
     height: 118
@@ -185,8 +224,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: squares_3_1
-    x: 853
-    y: 907
+    x: 843
+    y: 717
     width: 118
     height: 117
     borderLeft: 0
@@ -212,4 +251,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 165674}
   m_IsPrefabParent: 1
-  m_IsExploded: 1

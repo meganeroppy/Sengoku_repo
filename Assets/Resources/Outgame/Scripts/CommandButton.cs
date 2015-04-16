@@ -3,14 +3,17 @@ using System.Collections;
 
 public class CommandButton : MonoBehaviour {
 	
-	protected GameObject window;
-		
+	protected GameObject confirmWindow;
+	protected GameObject announceWindow;
+
 	// Use this for initialization
 	protected virtual void Start () {
 		if(GameManager.isWithUGUI){
-			window = Resources.Load("Outgame/Prefab/ConfirmWindow") as GameObject;
+			confirmWindow = Resources.Load("Outgame/Prefab/ConfirmWindow") as GameObject;
+			announceWindow = Resources.Load("Outgame/Prefab/AnnounceWindow") as GameObject;
 		}else{
-			window = Resources.Load("Outgame/Prefab/ConfirmWindowNGUI") as GameObject;
+			confirmWindow = Resources.Load("Outgame/Prefab/ConfirmWindowNGUI") as GameObject;
+			announceWindow = Resources.Load("Outgame/Prefab/AnnounceWindowNGUI") as GameObject;
 		}
 	}
 	

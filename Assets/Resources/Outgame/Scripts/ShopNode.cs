@@ -14,13 +14,13 @@ public class ShopNode : CommandButton {
 	{
 		string tag = "PURCHASE";
 		
-		GameObject obj = Instantiate(window) as GameObject;
+		GameObject obj = Instantiate(confirmWindow) as GameObject;
 		obj.transform.SetParent(GameObject.Find("ShopPageContents").transform.parent.transform.FindChild("AnnounceLayer").transform);
 		
 		int[] order = {num[index], price[index]};
 		//int[] order = {num, num == 5 ? 400 : 100};
 		
-		string text = tag + "," + num[index].ToString() + "個の魔法石を\n" + price[index].ToString() +"円で購入します。\nよろしいですか？";
+		string text = tag + "," + num[index].ToString() + "枚の金貨を\n" + price[index].ToString() +"円で購入します。\nよろしいですか？";
 		//string text = tag + "," + num.ToString() + "個の魔法石を\n" + (num == 5 ? 400 : 100).ToString() +"円で購入します。\nよろしいですか？";
 		
 		
@@ -32,7 +32,7 @@ public class ShopNode : CommandButton {
 	private void SetIndex(int val){
 
 		index = val;
-		string str = "魔法石 x " + num[index].ToString() + "          ¥" + price[index].ToString();
+		string str = "金貨 x " + num[index].ToString() + "          ¥" + price[index].ToString();
 
 		if(GameManager.isWithUGUI){
 			myText = transform.GetChild(0).GetComponent<Text>();

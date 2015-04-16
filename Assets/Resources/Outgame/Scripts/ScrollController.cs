@@ -19,15 +19,10 @@ public class ScrollController : MonoBehaviour {
 	[SerializeField]
 	protected Transform node = null;
 
-	[SerializeField]
-	protected Transform emptyNode = null;
-
 	/// <for uGUI>
 	[SerializeField]
 	protected RectTransform node_U = null;
-	
-	[SerializeField]
-	protected RectTransform emptyNode_U = null;
+
 	/// </for uGUI>
 
 

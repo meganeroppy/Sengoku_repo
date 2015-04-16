@@ -123,7 +123,7 @@ public class ConfirmWindow : MonoBehaviour {
 				GameObject obj = Instantiate(announceWindow) as GameObject;
 				obj.transform.SetParent(GameObject.Find("AnnounceLayer").transform);
 
-				string str = type == TYPE.GACHA ? "魔法石が不足しています。 " : "ゴールドが不足しています。 ";
+				string str = type == TYPE.GACHA ? "金貨が不足しています。 " : "ゴールドが不足しています。 ";
 				obj.SendMessage("Init", str);
 				Destroy(this.gameObject);
 
@@ -143,11 +143,13 @@ public class ConfirmWindow : MonoBehaviour {
 			if(GameManager.cur_stamina < (price)){
 				if(GameObject.Find("ConfirmWindow(Clone)")){
 					Destroy(GameObject.Find("ConfirmWindow(Clone)").gameObject);
+				}else if(GameObject.Find("ConfirmWindowNGUI(Clone)")){
+					Destroy(GameObject.Find("ConfirmWindowNGUI(Clone)").gameObject);
 				}
 				GameObject obj = Instantiate(confirmWindow) as GameObject;
 				obj.transform.SetParent(GameObject.Find("AnnounceLayer").transform);
 				
-				string str = "CHARGE,スタミナが不足しています。\n魔法石を消費してスタミナを回復させますか？";
+				string str = "CHARGE,兵糧が不足しています。\n金貨を消費して兵糧を回復させますか？";
 
 				int[] order = {0, 1};
 				obj.SendMessage("Init", order);
@@ -164,7 +166,7 @@ public class ConfirmWindow : MonoBehaviour {
 				GameObject obj = Instantiate(announceWindow) as GameObject;
 				obj.transform.SetParent(GameObject.Find("AnnounceLayer").transform);
 				
-				string str = "魔法石が不足しています。 ";
+				string str = "金貨が不足しています。 ";
 				obj.SendMessage("Init", str);
 				
 				return;

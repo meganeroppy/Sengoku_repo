@@ -2,35 +2,20 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class FriendNode : MonoBehaviour {
-	
-	private GameObject window;
+public class FriendNode : CommandButton {
 
 	private int index = 0;
 	private Text myText;
 	private Image myImage;
 	private UILabel myLabel;
 	private UISprite mySprite;
+	
 
-	// Use this for initialization
-	void Start () {
-		if(GameManager.isWithUGUI){
-			window = Resources.Load("Outgame/Prefab/AnnounceWindow") as GameObject;
-		}else{
-			window = Resources.Load("Outgame/Prefab/AnnounceWindowNGUI") as GameObject;
-		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-	
-	public void Press(){
+	protected override void ExecuteCommand(){
 		if(GameObject.FindWithTag("Announce")){
 			return;
 		}
-		GameObject obj = Instantiate(window) as GameObject;
+		GameObject obj = Instantiate(announceWindow) as GameObject;
 		obj.transform.SetParent(GameObject.Find("AnnounceLayer").transform);
 		string str = "フレンド" + index.ToString() + "の情報を表示しています。";
 		obj.SendMessage("Init", str);

@@ -187,7 +187,7 @@ public class GameManager : MonoBehaviour {
 		Transform parentTransform = GameObject.Find("AnnounceLayer").transform;
 		GameObject obj = Instantiate(window) as GameObject;
 		obj.transform.SetParent(parentTransform);
-		obj.SendMessage("Init", "スタミナを消費してクエストに挑戦しました。\n" + score.ToString() + "EXPを獲得しました。" + (!levelup ? "" : "\nレベルアップ!\nスタミナが全回復しました。") );
+		obj.SendMessage("Init", "兵糧を消費してクエストに挑戦しました。\n" + score.ToString() + "経験値を獲得しました。" + (!levelup ? "" : "\nレベルアップ!\n兵糧が全回復しました。") );
 	}
 
 	private Unit CreateNewUnit(){
@@ -212,7 +212,7 @@ public class GameManager : MonoBehaviour {
 		Transform parentTransform = GameObject.Find("AnnounceLayer").transform;
 		GameObject obj = Instantiate(window) as GameObject;
 		obj.transform.SetParent(parentTransform);
-		obj.SendMessage("Init", "スタミナが回復しました。");
+		obj.SendMessage("Init", "兵糧が回復しました。");
 	}
 
 	protected void CloseSubpage(){

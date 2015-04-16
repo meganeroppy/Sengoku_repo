@@ -42,8 +42,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 7a2e3129b544d4fc2be8c649114162e3, type: 2}
   mSprites:
   - name: 05
-    x: 534
-    y: 823
+    x: 816
+    y: 1365
     width: 145
     height: 112
     borderLeft: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: 09
     x: 534
-    y: 936
+    y: 1319
     width: 215
     height: 88
     borderLeft: 0
@@ -68,8 +68,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: BackButton
-    x: 336
-    y: 24
+    x: 895
+    y: 1767
     width: 64
     height: 64
     borderLeft: 0
@@ -81,8 +81,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: battle
-    x: 0
-    y: 4
+    x: 960
+    y: 1782
     width: 50
     height: 49
     borderLeft: 0
@@ -93,9 +93,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: emblem
+    x: 534
+    y: 1688
+    width: 360
+    height: 360
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: gachacha
     x: 0
-    y: 282
+    y: 1306
     width: 533
     height: 742
     borderLeft: 0
@@ -107,8 +120,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: GetLabel
-    x: 221
-    y: 25
+    x: 895
+    y: 1832
     width: 114
     height: 63
     borderLeft: 0
@@ -120,8 +133,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: gold
-    x: 221
-    y: 89
+    x: 521
+    y: 885
     width: 192
     height: 192
     borderLeft: 0
@@ -133,8 +146,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: icon_1r_192
-    x: 414
-    y: 217
+    x: 895
+    y: 1702
     width: 64
     height: 64
     borderLeft: 0
@@ -145,9 +158,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: icon_koban
+    x: 895
+    y: 1896
+    width: 126
+    height: 152
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 15
+    paddingRight: 19
+    paddingTop: 4
+    paddingBottom: 4
   - name: jewel
-    x: 0
-    y: 54
+    x: 521
+    y: 1078
     width: 220
     height: 227
     borderLeft: 0
@@ -158,6 +184,45 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: kabuto
+    x: 534
+    y: 1408
+    width: 281
+    height: 279
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 9
+    paddingTop: 16
+    paddingBottom: 6
+  - name: Kabuto2
+    x: 0
+    y: 875
+    width: 520
+    height: 430
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: koban
+    x: 816
+    y: 1478
+    width: 199
+    height: 209
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
   mPixelSize: 1
   mReplacement: {fileID: 0}
   mCoordinates: 0
@@ -173,4 +238,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 157898}
   m_IsPrefabParent: 1
-  m_IsExploded: 1

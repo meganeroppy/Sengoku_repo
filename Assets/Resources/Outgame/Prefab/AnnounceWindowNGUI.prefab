@@ -243,7 +243,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11465674, guid: 93b2fbb082fca496bafd7e6daecacac2, type: 2}
-  mSpriteName: Button_bg
+  mSpriteName: ele1
   mFillCenter: 1
 --- !u!114 &11460038
 MonoBehaviour:

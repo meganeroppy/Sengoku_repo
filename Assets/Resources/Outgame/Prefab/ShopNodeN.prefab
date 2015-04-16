@@ -100,7 +100,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 240, y: 70, z: 0}
+  m_Size: {x: 240, y: 55, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &11414726
 MonoBehaviour:
@@ -222,12 +222,12 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 240
-  mHeight: 70
+  mHeight: 55
   mDepth: 0
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.42857146
+  aspectRatio: 4.36363649
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -239,7 +239,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11465674, guid: 93b2fbb082fca496bafd7e6daecacac2, type: 2}
-  mSpriteName: Button_bg
+  mSpriteName: ele1
   mFillCenter: 1
 --- !u!114 &11481238
 MonoBehaviour:
@@ -318,7 +318,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11457898, guid: fa45251015f484c7da13fe07330b6f62, type: 2}
-  mSpriteName: jewel
+  mSpriteName: icon_koban
   mFillCenter: 1
 --- !u!1001 &100100000
 Prefab:
@@ -331,4 +331,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 134896}
   m_IsPrefabParent: 1
-  m_IsExploded: 1
